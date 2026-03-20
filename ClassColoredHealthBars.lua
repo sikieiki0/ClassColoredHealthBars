@@ -27,10 +27,6 @@ local function ApplyClassColorToBar(statusbar, unit)
         return
     end
 
-    if UnitIsDead(unit) and UnitHealth(unit) == 0 then
-        ResetBarTexture(statusbar)
-        return
-    end
 
     local _, class = UnitClass(unit)
     if not class or not CLASS_COLORS[class] then
