@@ -1,0 +1,7 @@
+## Interface: 120001
+## Title: Class-colored Health Bars
+## Notes: Class-color the Target/Focus/ToT/ToF health bars
+## Author: Siki
+## Version: 1.00
+
+ClassColoredHealthBars.lua
